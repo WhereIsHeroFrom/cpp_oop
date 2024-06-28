@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Project\\cpp_oop\\09\u3001\u591A\u6001\\09_01_\u591A\u6001\u7684\u8BED\u6CD5\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BF5D4DBE-2689-49C0-B955-544467D7ED5F}|09_01_\u591A\u6001\u7684\u8BED\u6CD5\\09_01_\u591A\u6001\u7684\u8BED\u6CD5.vcxproj|D:\\Project\\cpp_oop\\09\u3001\u591A\u6001\\09_01_\u591A\u6001\u7684\u8BED\u6CD5\\09_01_\u591A\u6001\u7684\u8BED\u6CD5\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BF5D4DBE-2689-49C0-B955-544467D7ED5F}|09_01_\u591A\u6001\u7684\u8BED\u6CD5\\09_01_\u591A\u6001\u7684\u8BED\u6CD5.vcxproj|solutionrelative:09_01_\u591A\u6001\u7684\u8BED\u6CD5\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "D:\\Project\\cpp_oop\\09\u3001\u591A\u6001\\09_01_\u591A\u6001\u7684\u8BED\u6CD5\\09_01_\u591A\u6001\u7684\u8BED\u6CD5\\main.cpp",
+              "RelativeDocumentMoniker": "09_01_\u591A\u6001\u7684\u8BED\u6CD5\\main.cpp",
+              "ToolTip": "D:\\Project\\cpp_oop\\09\u3001\u591A\u6001\\09_01_\u591A\u6001\u7684\u8BED\u6CD5\\09_01_\u591A\u6001\u7684\u8BED\u6CD5\\main.cpp",
+              "RelativeToolTip": "09_01_\u591A\u6001\u7684\u8BED\u6CD5\\main.cpp",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-28T00:53:46.658Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

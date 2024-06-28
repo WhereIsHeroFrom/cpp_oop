@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Project\\cpp_oop\\04\u3001\u5C01\u88C5\\04_03_class\u548Cstruct\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CE84F28D-1EBA-4BB7-830D-7157F52A9FD5}|04_03_class\u548Cstruct\\04_03_class\u548Cstruct.vcxproj|D:\\Project\\cpp_oop\\04\u3001\u5C01\u88C5\\04_03_class\u548Cstruct\\04_03_class\u548Cstruct\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CE84F28D-1EBA-4BB7-830D-7157F52A9FD5}|04_03_class\u548Cstruct\\04_03_class\u548Cstruct.vcxproj|solutionrelative:04_03_class\u548Cstruct\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "D:\\Project\\cpp_oop\\04\u3001\u5C01\u88C5\\04_03_class\u548Cstruct\\04_03_class\u548Cstruct\\main.cpp",
+              "RelativeDocumentMoniker": "04_03_class\u548Cstruct\\main.cpp",
+              "ToolTip": "D:\\Project\\cpp_oop\\04\u3001\u5C01\u88C5\\04_03_class\u548Cstruct\\04_03_class\u548Cstruct\\main.cpp",
+              "RelativeToolTip": "04_03_class\u548Cstruct\\main.cpp",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAswCAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-27T00:15:15.302Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
