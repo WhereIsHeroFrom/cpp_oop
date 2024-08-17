@@ -43,6 +43,9 @@ int main() {
     cout << h2.m_Data << endl;
 
     h3 = (h2 = h1);
+    cout << h1.m_Data << endl;
+    cout << h2.m_Data << endl;
+    cout << h3.m_Data << endl;
 
     return 0;
 }
