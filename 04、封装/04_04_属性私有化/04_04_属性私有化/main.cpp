@@ -2,9 +2,9 @@
 #include <string>
 using namespace std;
 
-// ½Ó¿Ú¡¢·½·¨¡¢º¯Êı ÊÇÍ¬Ò»¸ö¸ÅÄî
-// 1¡¢¿ÉÒÔ¿ØÖÆ¶ÁĞ´È¨ÏŞ
-// 2¡¢¿ÉÒÔ¼ì²âÊı¾İµÄÓĞĞ§ĞÔ
+// æ¥å£ã€æ–¹æ³•ã€å‡½æ•° æ˜¯åŒä¸€ä¸ªæ¦‚å¿µ
+// 1ã€å¯ä»¥æ§åˆ¶è¯»å†™æƒé™
+// 2ã€å¯ä»¥æ£€æµ‹æ•°æ®çš„æœ‰æ•ˆæ€§
 
 class Hero {
 public:
@@ -21,16 +21,16 @@ public:
 
     void SetSpeed(int speed) {
         if (speed < 100 || speed > 500) {
-            cout << "ËÙ¶ÈÉèÖÃ²»ºÏ·¨" << endl;
+            cout << "é€Ÿåº¦è®¾ç½®ä¸åˆæ³•" << endl;
             return;
         }
         m_Speed = speed;
     }
 
 private:
-    string   m_Name;            // ¿É¶Á£¬¿ÉĞ´
-    int      m_SkillCount = 4;  // Ö»¶Á
-    int      m_Speed;           // Ö»Ğ´
+    string   m_Name;            // å¯è¯»ï¼Œå¯å†™
+    int      m_SkillCount = 4;  // åªè¯»
+    int      m_Speed;           // åªå†™
 };
 
 int main() {
@@ -40,9 +40,9 @@ int main() {
         h.m_SkillCount = 4;
         h.m_Speed = 10;
     */
-    h.SetName("½£Ê¥");
-    cout << "Ó¢ĞÛµÄÃû×Ö½Ğ£º" << h.GetName() << endl;
-    cout << "Ó¢ĞÛµÄ¼¼ÄÜÊıÊÇ£º" << h.GetSkillCount() << endl;
+    h.SetName("å‰‘åœ£");
+    cout << "è‹±é›„çš„åå­—å«ï¼š" << h.GetName() << endl;
+    cout << "è‹±é›„çš„æŠ€èƒ½æ•°æ˜¯ï¼š" << h.GetSkillCount() << endl;
     h.SetSpeed(666);
 
 

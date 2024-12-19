@@ -1,8 +1,8 @@
 #include <iostream>
 using namespace std;
 
-// Àà×÷ÎªÓÑÔª
-// ÈÃÒ»¸öÀàÈ¥·ÃÎÊÁíÒ»¸öÀàµÄË½ÓĞ³ÉÔ±
+// ç±»ä½œä¸ºå‹å…ƒ
+// è®©ä¸€ä¸ªç±»å»è®¿é—®å¦ä¸€ä¸ªç±»çš„ç§æœ‰æˆå‘˜
 
 class People;
 
@@ -18,8 +18,8 @@ class People {
     friend class PeopleFriend;
 public:
     People() {
-        m_House = "±ğÊû";
-        m_Car = "ÅÜ³µ";
+        m_House = "åˆ«å¢…";
+        m_Car = "è·‘è½¦";
     }
 public:
     string    m_House;
@@ -29,8 +29,8 @@ private:
 };
 
 void PeopleFriend::visit(People* p) {
-    cout << "ºÃÅóÓÑÀ´·ÃÎÊÄãµÄ" << p->m_House << endl;
-    cout << "ºÃÅóÓÑÀ´·ÃÎÊÄãµÄ" << p->m_Car << endl;
+    cout << "å¥½æœ‹å‹æ¥è®¿é—®ä½ çš„" << p->m_House << endl;
+    cout << "å¥½æœ‹å‹æ¥è®¿é—®ä½ çš„" << p->m_Car << endl;
 }
 
 int main() {

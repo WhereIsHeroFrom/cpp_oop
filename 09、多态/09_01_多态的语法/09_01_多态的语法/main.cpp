@@ -3,29 +3,29 @@ using namespace std;
 
 class Animal {
 public:
-    // Ğéº¯Êı
+    // è™šå‡½æ•°
     virtual void eat() {
-        cout << "¶¯ÎïÔÚ³Ô¶«Î÷" << endl;
+        cout << "åŠ¨ç‰©åœ¨åƒä¸œè¥¿" << endl;
     }
 };
 
 class Cat : public Animal {
 public:
     void eat() {
-        cout << "Ã¨ÔÚ³Ô¶«Î÷" << endl;
+        cout << "çŒ«åœ¨åƒä¸œè¥¿" << endl;
     }
 };
 
 class Pig : public Animal {
 public:
     void eat() {
-        cout << "ÖíÔÚ³Ô¶«Î÷" << endl;
+        cout << "çŒªåœ¨åƒä¸œè¥¿" << endl;
     }
 };
 
 
 // main -> test -> eat -> Animal::eat
-// º¯Êı´«²ÎÊÇ¸ö¶¯Îï£¬µ«ÊÇ´«Èë²»Í¬µÄ¶¯Îï£¬»á²úÉú²»Í¬µÄĞĞÎª£¬Õâ¾Í½Ğ¶àÌ¬
+// å‡½æ•°ä¼ å‚æ˜¯ä¸ªåŠ¨ç‰©ï¼Œä½†æ˜¯ä¼ å…¥ä¸åŒçš„åŠ¨ç‰©ï¼Œä¼šäº§ç”Ÿä¸åŒçš„è¡Œä¸ºï¼Œè¿™å°±å«å¤šæ€
 void eat(Animal& a) {
     a.eat();
 }

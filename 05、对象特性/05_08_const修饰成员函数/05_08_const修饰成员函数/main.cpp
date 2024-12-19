@@ -2,7 +2,7 @@
 #include <vector>
 using namespace std;
 
-// ³£º¯Êý
+// Â³Â£ÂºÂ¯ÃŠÃ½
 class Hero {
 public:
     Hero() : m_Hp(0) {}

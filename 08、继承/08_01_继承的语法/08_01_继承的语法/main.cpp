@@ -2,34 +2,34 @@
 using namespace std;
 
 /*
-*       ¶¯Îï
+*       åŠ¨ç‰©
 *      /    \
-*    Ã¨      ¹·
+*    çŒ«      ç‹—
 * 
-* ¼Ì³ÐµÄÓï·¨
-* class ×ÓÀà : ¼Ì³Ð·½Ê½ ¸¸Àà {}
-* ×ÓÀà -> ÅÉÉúÀà
-* ¸¸Àà -> »ùÀà
+* ç»§æ‰¿çš„è¯­æ³•
+* class å­ç±» : ç»§æ‰¿æ–¹å¼ çˆ¶ç±» {}
+* å­ç±» -> æ´¾ç”Ÿç±»
+* çˆ¶ç±» -> åŸºç±»
 */
 
 class Animal {
 public:
     void eat() {
-        cout << "³Ô" << endl;
+        cout << "åƒ" << endl;
     }
 };
 
 class Cat : public Animal {
 public:
     void sayHi() {
-        cout << "ß÷~" << endl;
+        cout << "å–µ~" << endl;
     }
 };
 
 class Dog : public Animal {
 public:
     void sayHi() {
-        cout << "ÍôÍôÍô~" << endl;
+        cout << "æ±ªæ±ªæ±ª~" << endl;
     }
 };
 

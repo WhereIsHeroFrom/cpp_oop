@@ -2,8 +2,8 @@
 #include <string>
 using namespace std;
 
-//  ³ÉÔ±º¯Êı×÷ÎªÓÑÔª
-// PeopleFriend µÄÄ³¸öº¯ÊıÄÜ¹»·ÃÎÊ  People µÄË½ÓĞ³ÉÔ±±äÁ¿
+//  æˆå‘˜å‡½æ•°ä½œä¸ºå‹å…ƒ
+// PeopleFriend çš„æŸä¸ªå‡½æ•°èƒ½å¤Ÿè®¿é—®  People çš„ç§æœ‰æˆå‘˜å˜é‡
 
 class People;
 
@@ -21,8 +21,8 @@ class People {
     friend void PeopleFriend::visitAll(People* p);
 public:
     People() {
-        m_House = "±ğÊû";
-        m_Car = "ÅÜ³µ";
+        m_House = "åˆ«å¢…";
+        m_Car = "è·‘è½¦";
     }
 public:
     string     m_House;
@@ -31,13 +31,13 @@ private:
 };
 
 void PeopleFriend::visitAll(People* p) {
-    cout << "ºÃÅóÓÑ·ÃÎÊÁËÄãµÄ" << p->m_House << endl;
-    cout << "ºÃÅóÓÑ·ÃÎÊÁËÄãµÄ" << p->m_Car << endl;
+    cout << "å¥½æœ‹å‹è®¿é—®äº†ä½ çš„" << p->m_House << endl;
+    cout << "å¥½æœ‹å‹è®¿é—®äº†ä½ çš„" << p->m_Car << endl;
 
 }
 void PeopleFriend::visitPub(People* p) {
-    cout << "ºÃÅóÓÑ·ÃÎÊÁËÄãµÄ" << p->m_House << endl;
-    // cout << "ºÃÅóÓÑ·ÃÎÊÁËÄãµÄ" << p->m_Car << endl;
+    cout << "å¥½æœ‹å‹è®¿é—®äº†ä½ çš„" << p->m_House << endl;
+    // cout << "å¥½æœ‹å‹è®¿é—®äº†ä½ çš„" << p->m_Car << endl;
 }
 
 int main() {

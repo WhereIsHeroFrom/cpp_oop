@@ -10,7 +10,7 @@ public:
 class Cat : public Animal {
 public:
     virtual void eat() {
-        cout << "è�ڳԶ���" << endl;
+        cout << "Ã¨ÔÚ³Ô¶«Î÷" << endl;
     }
 };
 

@@ -4,7 +4,7 @@ using namespace std;
 /*
 +
 */
-// ¸´ÊýÀà
+// Â¸Â´ÃŠÄ±Ã€Ã 
 class Complex {
     friend Complex operator+(Complex& a, Complex& b);
     friend Complex operator-(Complex& a, Complex& b);

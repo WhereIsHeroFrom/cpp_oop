@@ -2,9 +2,9 @@
 using namespace std;
 
 /*
-thisÖ¸Õë
-1¡¢½â¾öÃüÃû³åÍ»
-2¡¢*this ¾Í¿ÉÒÔ»ñÈ¡µ½Õâ¸ö¶ÔÏó±¾Éí
+thisæŒ‡é’ˆ
+1ã€è§£å†³å‘½åå†²çª
+2ã€*this å°±å¯ä»¥èŽ·å–åˆ°è¿™ä¸ªå¯¹è±¡æœ¬èº«
 
 
 this     *this

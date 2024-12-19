@@ -38,7 +38,7 @@ int main() {
 
     cout << h1.m_Data << endl;
     cout << h2.m_Data << endl;
-    h1 = h2;  // �ڴ�й©
+    h1 = h2;  // ÄÚ´æÐ¹Â©
     cout << h1.m_Data << endl;
     cout << h2.m_Data << endl;
 

@@ -7,11 +7,11 @@ using namespace std;
 Complex c;
 cout.operator<<(c)
 
-// ³ÉÔ±º¯Êý
+// æˆå‘˜å‡½æ•°
 c.operator<<(cout)
 c << cout
 */
-// ¸´ÊýÀà
+// å¤æ•°ç±»
 class Complex {
     friend Complex operator+(Complex& a, Complex& b);
     friend Complex operator-(Complex& a, Complex& b);

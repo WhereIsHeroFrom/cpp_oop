@@ -33,13 +33,13 @@ int main() {
     Point b(2, 5);
 
     if (a == b) {
-        cout << "a ºÍ b ÏàµÈ" << endl;
+        cout << "a å’Œ b ç›¸ç­‰" << endl;
     }
     else if (a < b) {
-        cout << "a ±È b ¸ü¼Ó½Ó½üÔ­µã" << endl;
+        cout << "a æ¯” b æ›´åŠ æŽ¥è¿‘åŽŸç‚¹" << endl;
     }
     else if(a > b) {
-        cout << "b ±È a ¸ü¼Ó½Ó½üÔ­µã" << endl;
+        cout << "b æ¯” a æ›´åŠ æŽ¥è¿‘åŽŸç‚¹" << endl;
     }
 
     return 0;

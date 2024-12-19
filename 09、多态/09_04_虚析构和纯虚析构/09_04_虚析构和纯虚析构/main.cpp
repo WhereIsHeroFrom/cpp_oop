@@ -5,7 +5,7 @@ class BaseA {
 public:
     BaseA() {}
     ~BaseA() {
-        cout << "BaseA Ïú»ÙÁË" << endl;
+        cout << "BaseA é”€æ¯äº†" << endl;
     } 
 };
 
@@ -15,7 +15,7 @@ public:
         m_Value = new int(10);
     }
     ~SonA() {
-        cout << "SonA Ïú»ÙÁË" << endl;
+        cout << "SonA é”€æ¯äº†" << endl;
         delete m_Value;
     }
     int* m_Value;
@@ -26,13 +26,13 @@ class BaseB {
 public:
     BaseB() {}
     /*virtual ~BaseB() {
-        cout << "BaseB Ïú»ÙÁË" << endl;
+        cout << "BaseB é”€æ¯äº†" << endl;
     }*/
     virtual ~BaseB() = 0;
 };
 
 BaseB::~BaseB() {
-    cout << "BaseB Ïú»ÙÁË" << endl;
+    cout << "BaseB é”€æ¯äº†" << endl;
 }
 
 class SonB : public BaseB {
@@ -41,7 +41,7 @@ public:
         m_Value = new int(10);
     }
     ~SonB() {
-        cout << "SonB Ïú»ÙÁË" << endl;
+        cout << "SonB é”€æ¯äº†" << endl;
         delete m_Value;
     }
     int* m_Value;
@@ -54,7 +54,7 @@ int main() {
     BaseB* b = new SonB();
     delete b;
 
-    // BaseB x; ³éÏóÀàÎÞ·¨½øÐÐÊµÀý»¯
+    // BaseB x; æŠ½è±¡ç±»æ— æ³•è¿›è¡Œå®žä¾‹åŒ–
 
     return 0;
 }

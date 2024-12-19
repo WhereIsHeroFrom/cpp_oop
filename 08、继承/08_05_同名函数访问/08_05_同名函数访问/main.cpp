@@ -7,7 +7,7 @@ public:
 
     }
     void eat() {
-        cout << "¶¯Îï³Ô¶«Î÷" << endl;
+        cout << "åŠ¨ç‰©åƒä¸œè¥¿" << endl;
     }
 };
 
@@ -18,7 +18,7 @@ public:
     }
     void eat() {
         Animal::eat();
-        cout << "Ã¨³Ô¶«Î÷" << endl;
+        cout << "çŒ«åƒä¸œè¥¿" << endl;
     }
 };
 

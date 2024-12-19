@@ -5,7 +5,7 @@
 using namespace sf;
 
 int main() {
-    RenderWindow win(VideoMode(WIN_W, WIN_H), L"扫雷" );
+    RenderWindow win(VideoMode(WIN_W, WIN_H), L"鎵浄" );
     Texture t;
     t.loadFromFile("mine.png");
     Sprite s(t);
@@ -20,7 +20,7 @@ int main() {
 
         while (win.pollEvent(e)) {
             if (e.type == Event::Closed) {
-                std::cout << "按下关闭按钮" << std::endl;
+                std::cout << "鎸変笅鍏抽棴鎸夐挳" << std::endl;
                 win.close();
             }
             mp.handleMouseEvent(e, x, y);

@@ -5,8 +5,8 @@ using namespace std;
 struct && class
 
 
-struct Ä¬ÈÏÊÇ¹«¹²µÄ
-class  Ä¬ÈÏÊÇË½ÓĞµÄ
+struct é»˜è®¤æ˜¯å…¬å…±çš„
+class  é»˜è®¤æ˜¯ç§æœ‰çš„
 */
 
 class C {
@@ -24,8 +24,8 @@ struct S {
 int main() {
     C c;
     S s;
-    // c.m_a;      // Ë½ÓĞµÄ
-    s.m_a = 4;  // ¹«ÓĞµÄ
+    // c.m_a;      // ç§æœ‰çš„
+    s.m_a = 4;  // å…¬æœ‰çš„
     s.func();
     cout << s.m_a << endl;
 

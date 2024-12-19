@@ -15,18 +15,18 @@ a + b;
 
 */
 int main() {
-    // 1¡¢¼Ó·¨ÔËËã·û
+    // 1ã€åŠ æ³•è¿ç®—ç¬¦
     int a = 520;
     int b = 1314;
     cout << a + b << endl;
 
-    // 2¡¢×Ö·û´®Æ´½Ó
+    // 2ã€å­—ç¬¦ä¸²æ‹¼æ¥
     string c = "520";
     string d = "1314";
     cout << c + d << endl;
 
-    string e = "ÎÒ";
-    string f = "°®Äã";
+    string e = "æˆ‘";
+    string f = "çˆ±ä½ ";
     cout << e + f << endl;
     return 0;
 }

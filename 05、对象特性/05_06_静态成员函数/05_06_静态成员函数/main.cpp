@@ -4,15 +4,15 @@ using namespace std;
 
 
 /*
-��̬��Ա����
-1�����ж���������
-2����̬��Ա����ֻ��ʹ�þ�̬��Ա�������޷�ʹ����ͨ��Ա����
+静态成员函数
+1、所有对象共享函数
+2、静态成员函数只能使用静态成员变量，无法使用普通成员变量
 */
 
 class Hero {
 public:
     Hero() {
-        m_Name = "Ӣ��";
+        m_Name = "英雄";
         m_Hp = 100;
     }
     ~Hero() {

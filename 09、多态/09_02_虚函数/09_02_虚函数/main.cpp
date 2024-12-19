@@ -4,17 +4,17 @@ using namespace std;
 class Animal {
 public:
     virtual void eat() {
-        cout << "¶¯ÎïÔÚ³Ô¶«Î÷" << endl;
+        cout << "åŠ¨ç‰©åœ¨åƒä¸œè¥¿" << endl;
     }
     virtual void run() {
-        cout << "¶¯ÎïÔÚÅÜ" << endl;
+        cout << "åŠ¨ç‰©åœ¨è·‘" << endl;
     }
 };
 
 class Cat: public Animal {
 public:
     void eat() {
-        cout << "Ã¨ÔÚ³Ô¶«Î÷" << endl;
+        cout << "çŒ«åœ¨åƒä¸œè¥¿" << endl;
     }
 };
 

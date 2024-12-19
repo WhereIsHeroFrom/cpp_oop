@@ -3,9 +3,9 @@
 using namespace std;
 
 /*
-³õÊ¼»¯ÁÐ±íµÄÓï·¨
+åˆå§‹åŒ–åˆ—è¡¨çš„è¯­æ³•
 
-¹¹Ôìº¯Êý(´«²Î1, ´«²Î2): ³ÉÔ±±äÁ¿1(´«²Î1), ³ÉÔ±±äÁ¿2(´«²Î2) {}
+æž„é€ å‡½æ•°(ä¼ å‚1, ä¼ å‚2): æˆå‘˜å˜é‡1(ä¼ å‚1), æˆå‘˜å˜é‡2(ä¼ å‚2) {}
 
 */
 class Hero {
@@ -18,7 +18,7 @@ public:
     }
 
     void Print() {
-        cout << "Ó¢ÐÛ£º" << m_Name << "µÄÑªÁ¿ÊÇ" << m_Hp << ",ËÙ¶ÈÊÇ" << m_Speed << endl;
+        cout << "è‹±é›„ï¼š" << m_Name << "çš„è¡€é‡æ˜¯" << m_Hp << ",é€Ÿåº¦æ˜¯" << m_Speed << endl;
     }
 
 private:
@@ -27,7 +27,7 @@ private:
     int m_Speed;
 };
 int main() {
-    Hero h("½£Ê¥", 100, 10);
+    Hero h("å‰‘åœ£", 100, 10);
     h.Print();
 
     return 0;

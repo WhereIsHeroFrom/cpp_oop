@@ -2,7 +2,7 @@
 using namespace std;
 
 /*
-¼Ì³ÐÖÐ£¬¹¹ÔìÁ´Àï£¬ÏÈ¹¹ÔìµÄºóÎö¹¹
+ç»§æ‰¿ä¸­ï¼Œæž„é€ é“¾é‡Œï¼Œå…ˆæž„é€ çš„åŽæžæž„
 
 d -> c -> b -> a
 
@@ -12,30 +12,30 @@ a b c d d c b a
 class Animal {
 public:
     Animal() {
-        cout << "Animal ¹¹Ôì" << endl;
+        cout << "Animal æž„é€ " << endl;
     }
     ~Animal() {
-        cout << "Animal Îö¹¹" << endl;
+        cout << "Animal æžæž„" << endl;
     }
 };
 
 class Cat: public Animal {
 public:
     Cat() {
-        cout << "Cat ¹¹Ôì" << endl;
+        cout << "Cat æž„é€ " << endl;
     }
     ~Cat() {
-        cout << "Cat Îö¹¹" << endl;
+        cout << "Cat æžæž„" << endl;
     }
 };
 
 class BossCat : public Cat {
 public:
     BossCat() {
-        cout << "BossCat ¹¹Ôì" << endl;
+        cout << "BossCat æž„é€ " << endl;
     }
     ~BossCat() {
-        cout << "BossCat Îö¹¹" << endl;
+        cout << "BossCat æžæž„" << endl;
     }
 };
 

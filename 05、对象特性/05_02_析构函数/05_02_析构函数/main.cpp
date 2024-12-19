@@ -4,22 +4,22 @@ using namespace std;
 
 
 /*
-Îö¹¹º¯Êý×¢Òâµã
+æžæž„å‡½æ•°æ³¨æ„ç‚¹
 
-1¡¢º¯ÊýÃû³ÆºÍÀàÃûÒ»ÖÂ£¬²¢ÇÒÔÚ×îÇ°Ãæ¼ÓÉÏÒ»¸ö ~ ²¨ÀËºÅ
-2¡¢º¯Êý·µ»ØÖµ²»ÐèÒªÐ´
-3¡¢²»ÄÜÓÐ²ÎÊý
+1ã€å‡½æ•°åç§°å’Œç±»åä¸€è‡´ï¼Œå¹¶ä¸”åœ¨æœ€å‰é¢åŠ ä¸Šä¸€ä¸ª ~ æ³¢æµªå·
+2ã€å‡½æ•°è¿”å›žå€¼ä¸éœ€è¦å†™
+3ã€ä¸èƒ½æœ‰å‚æ•°
 
 */
 class Hero {
 public:
-    // ¹¹Ôìº¯Êý
+    // æž„é€ å‡½æ•°
     Hero() {
-        cout << "Hero Ä¬ÈÏ¹¹Ôìº¯Êýµ÷ÓÃÍê±Ï£¡" << endl;
+        cout << "Hero é»˜è®¤æž„é€ å‡½æ•°è°ƒç”¨å®Œæ¯•ï¼" << endl;
     }
-    // Îö¹¹º¯Êý
+    // æžæž„å‡½æ•°
     ~Hero() {
-        cout << "Hero Îö¹¹º¯Êýµ÷ÓÃÍê±Ï£¡" << endl;
+        cout << "Hero æžæž„å‡½æ•°è°ƒç”¨å®Œæ¯•ï¼" << endl;
     }
 };
 
